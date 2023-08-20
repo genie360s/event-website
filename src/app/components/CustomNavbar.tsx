@@ -10,7 +10,7 @@ export default function CustomNavbar() {
         <ul className="flex items-center  justify-left flex-wrap text-base">
           <li className="hover:underline hover:underline-offset-8 hover:decoration-4 px-5 cursor-pointer">
             
-            <Link href="">Home</Link>
+            <Link   href="/">Home</Link>
           </li>
           <li className="hover:underline hover:underline-offset-8 hover:decoration-4 px-5 cursor-pointer">
           <Link href="/about">About</Link>

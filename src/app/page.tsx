@@ -3,6 +3,7 @@ import Image from 'next/image'
 // importing components
 import CustomNavbar from "./components/CustomNavbar";
 import BallAnimation from './components/BallAnimation';
+import CustomFooter from './components/CustomFooter';
 
 
 export default function Home() {
@@ -39,9 +40,7 @@ export default function Home() {
       </div>
       
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <p>this is the footer</p>
-      </div>
+      < CustomFooter />
     </main>
   );
 }
